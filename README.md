@@ -30,8 +30,7 @@ pip install torchslim
 # Or install from GitHub (development version)
 pip install git+https://github.com/zetaneh/torchslim.git
 
-# Install with all optional dependencies
-pip install "torchslim[all]"
+
 
 # Install for development
 git clone https://github.com/zetaneh/torchslim.git
@@ -246,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/zetaneh/torchslim/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/zetaneh/torchslim/discussions)
-- **Email**: your-email@example.com
+- **Email**: abraich.jons+torchslim@gmail.com
 
 ## 🎯 Roadmap
 
