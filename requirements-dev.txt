@@ -1,0 +1,37 @@
+# Include core requirements
+-r requirements.txt
+
+# Development dependencies
+pytest>=6.0
+pytest-cov>=2.0
+pytest-xdist>=2.0
+black>=21.0
+flake8>=3.9
+mypy>=0.910
+isort>=5.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+sphinx-autodoc-typehints>=1.12.0
+
+# Analysis and visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Notebooks and interactive development
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Benchmarking
+psutil>=5.8.0
+memory-profiler>=0.60.0
+
+# Package building and publishing
+build>=0.7.0
+twine>=3.0.0
+wheel>=0.36.0
+
+# Pre-commit hooks
+pre-commit>=2.15.0
