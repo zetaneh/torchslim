@@ -30,8 +30,6 @@ TorchSlim is a comprehensive framework for neural network compression that provi
 # Install from GitHub (recommended)
 pip install git+https://github.com/zetaneh/torchslim.git
 
-# Install with all optional dependencies
-pip install "git+https://github.com/zetaneh/torchslim.git[all]"
 
 # For development
 git clone https://github.com/zetaneh/torchslim.git
