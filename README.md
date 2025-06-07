@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Build Status](https://github.com/yourusername/torchslim/workflows/CI/badge.svg)](https://github.com/yourusername/torchslim/actions)
+[![Build Status](https://github.com/zetaneh/torchslim/workflows/CI/badge.svg)](https://github.com/zetaneh/torchslim/actions)
 
 **Extensible PyTorch Model Compression Library with Plugin-Based Architecture**
 
@@ -28,13 +28,13 @@ TorchSlim is a comprehensive framework for neural network compression that provi
 pip install torchslim
 
 # Or install from GitHub (development version)
-pip install git+https://github.com/yourusername/torchslim.git
+pip install git+https://github.com/zetaneh/torchslim.git
 
 # Install with all optional dependencies
 pip install "torchslim[all]"
 
 # Install for development
-git clone https://github.com/yourusername/torchslim.git
+git clone https://github.com/zetaneh/torchslim.git
 cd torchslim
 pip install -e ".[dev]"
 ```
@@ -217,7 +217,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Development setup
-git clone https://github.com/yourusername/torchslim.git
+git clone https://github.com/zetaneh/torchslim.git
 cd torchslim
 pip install -e ".[dev]"
 
@@ -244,8 +244,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/torchslim/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/torchslim/discussions)
+- **Issues**: [GitHub Issues](https://github.com/zetaneh/torchslim/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/zetaneh/torchslim/discussions)
 - **Email**: your-email@example.com
 
 ## 🎯 Roadmap
@@ -261,4 +261,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Star ⭐ the project if you find it useful!**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/torchslim&type=Date)](https://star-history.com/#yourusername/torchslim&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=zetaneh/torchslim&type=Date)](https://star-history.com/#zetaneh/torchslim&Date)

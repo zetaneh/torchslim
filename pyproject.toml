@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "TorchSlim Contributors", email = "your-email@example.com"},
+    {name = "TorchSlim Contributors", email = "abraich.jobs@gmail.com"},
 ]
 maintainers = [
-    {name = "TorchSlim Contributors", email = "your-email@example.com"},
+    {name = "TorchSlim Contributors", email = "abraich.jobs@gmail.com"},
 ]
 keywords = [
     "pytorch",
@@ -83,11 +83,11 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/torchslim"
-Repository = "https://github.com/yourusername/torchslim.git"
+Homepage = "https://github.com/zetaneh/torchslim"
+Repository = "https://github.com/zetaneh/torchslim.git"
 Documentation = "https://torchslim.readthedocs.io/"
-"Bug Reports" = "https://github.com/yourusername/torchslim/issues"
-Changelog = "https://github.com/yourusername/torchslim/blob/main/CHANGELOG.md"
+"Bug Reports" = "https://github.com/zetaneh/torchslim/issues"
+Changelog = "https://github.com/zetaneh/torchslim/blob/main/CHANGELOG.md"
 
 [project.scripts]
 torchslim = "torchslim.cli.main:main"
