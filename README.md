@@ -1,263 +1,446 @@
-# 🔥 TorchSlim
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🔥 TorchSlim
 
-[![PyPI version](https://badge.fury.io/py/torchslim.svg)](https://badge.fury.io/py/torchslim)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Build Status](https://github.com/zetaneh/torchslim/workflows/CI/badge.svg)](https://github.com/zetaneh/torchslim/actions)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![PyPI version](https://badge.fury.io/py/torchslim.svg)](https://badge.fury.io/py/torchslim)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![Build Status](https://github.com/zetaneh/torchslim/workflows/CI/badge.svg)](https://github.com/zetaneh/torchslim/actions)
 
-**Extensible PyTorch Model Compression Library with Plugin-Based Architecture**
+**Ex[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ensible PyTorch Model Compression Library with Plugin-Based Architecture**
 
-TorchSlim is a comprehensive framework for neural network compression that provides a modular, plugin-based architecture for easy integration of new compression methods. Built for researchers and practitioners who need flexible, extensible compression tools.
+Torch[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]lim is a comprehensive framework for neural network compression that provides a modular, plugin-based architecture for easy integration of new compression methods. Built for researchers and practitioners who need flexible, extensible compression tools.
 
-## 🌟 Key Features
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🌟 Key Features
 
-- 🔌 **Plugin Architecture**: Easy to add new compression methods
-- 🗜️ **Multiple Compression Methods**: SVD, Quantization, Pruning, LoRA, Knowledge Distillation, etc.
-- 📊 **Comprehensive Analysis**: Profiling, visualization, and benchmarking tools
-- ⚡ **Production Ready**: Complete package structure with proper Python packaging
-- 🎛️ **Flexible Configuration**: Mix and match compression techniques
-- 📈 **Advanced Visualizations**: Static and interactive plots for analysis
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🔌 **Plugin Architecture**: Easy to add new compression methods
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🗜️ **Multiple Compression Methods**: SVD, Quantization, Pruning, LoRA, Knowledge Distillation, etc.
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📊 **Comprehensive Analysis**: Profiling, visualization, and benchmarking tools
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]⚡ **Production Ready**: Complete package structure with proper Python packaging
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🎛️ **Flexible Configuration**: Mix and match compression techniques
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📈 **Advanced Visualizations**: Static and interactive plots for analysis
 
-## 🚀 Quick Start
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🚀 Quick Start
 
-### Installation
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Installation
 
-```bash
-# Install from PyPI (when published)
-pip install torchslim
+```b[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sh
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Install from PyPI (when published)
+p[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]p install torchslim
 
-# Or install from GitHub (development version)
-pip install git+https://github.com/zetaneh/torchslim.git
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Or install from GitHub (development version)
+p[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]p install git+https://github.com/zetaneh/torchslim.git
 
 
 
-# Install for development
-git clone https://github.com/zetaneh/torchslim.git
-cd torchslim
-pip install -e ".[dev]"
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Install for development
+g[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]t clone https://github.com/zetaneh/torchslim.git
+c[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status] torchslim
+p[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]p install -e ".[dev]"
 ```
 
-### Basic Usage
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Basic Usage
 
-```python
-import torch
-from torchslim import TorchSlim, CompressionConfig, create_test_model
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]mport torch
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim import TorchSlim, CompressionConfig, create_test_model
 
-# Create a model
-model = create_test_model("mlp", input_size=784, hidden_sizes=[512, 256], output_size=10)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Create a model
+mo[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]el = create_test_model("mlp", input_size=784, hidden_sizes=[512, 256], output_size=10)
 
-# Configure compression
-config = CompressionConfig()
-config.add_method("svd", rank_ratio=0.5)
-config.add_method("pruning", pruning_ratio=0.2)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Configure compression
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g = CompressionConfig()
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("svd", rank_ratio=0.5)
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("pruning", pruning_ratio=0.2)
 
-# Compress the model
-compressor = TorchSlim(config)
-compressed_model = compressor.compress_model(model)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Compress the model
+compre[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sor = TorchSlim(config)
+compre[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sed_model = compressor.compress_model(model)
 
-# Get compression report
-report = compressor.get_compression_report()
-print(f"Compression ratio: {report['summary']['compression_ratio']:.2f}x")
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Get compression report
+repor[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status] = compressor.get_compression_report()
+pr[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]nt(f"Compression ratio: {report['summary']['compression_ratio']:.2f}x")
 ```
 
-### Quick Compression
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Quick Compression
 
-```python
-from torchslim import quick_compress
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim import quick_compress
 
-# One-liner compression
-compressed_model, report = quick_compress(model, method_name="svd", rank_ratio=0.5)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]One-liner compression
+compre[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sed_model, report = quick_compress(model, method_name="svd", rank_ratio=0.5)
 ```
 
-## 📦 Available Compression Methods
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📦 Available Compression Methods
 
-| Method | Type | Description | Best For |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Method | Type | Description | Best For |
 |--------|------|-------------|----------|
-| **SVD** | Structural | Low-rank matrix decomposition | Linear layers, 2-4x compression |
-| **Quantization** | Parametric | Reduce weight precision | Memory optimization, 4x+ compression |
-| **Pruning** | Structural | Remove unimportant weights | General compression, 1.5-3x |
-| **LoRA** | Structural | Low-rank adaptation | Fine-tuning efficiency, 10x+ reduction |
-| **Knowledge Distillation** | Training | Teacher-student training | Training-time compression |
-| **Tensor Decomposition** | Structural | Tucker/CP decomposition | Convolutional layers |
-| **Weight Clustering** | Parametric | Reduce unique weight values | Hardware-specific optimizations |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**SVD** | Structural | Low-rank matrix decomposition | Linear layers, 2-4x compression |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Quantization** | Parametric | Reduce weight precision | Memory optimization, 4x+ compression |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Pruning** | Structural | Remove unimportant weights | General compression, 1.5-3x |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**LoRA** | Structural | Low-rank adaptation | Fine-tuning efficiency, 10x+ reduction |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Knowledge Distillation** | Training | Teacher-student training | Training-time compression |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Tensor Decomposition** | Structural | Tucker/CP decomposition | Convolutional layers |
+|[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Weight Clustering** | Parametric | Reduce unique weight values | Hardware-specific optimizations |
 
-## 🔧 Advanced Usage
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🔧 Advanced Usage
 
-### Custom Compression Pipeline
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Custom Compression Pipeline
 
-```python
-# Multi-stage compression with validation
-config = CompressionConfig()
-config.add_method("svd", rank_ratio=0.7, energy_threshold=0.95)
-config.add_method("pruning", pruning_type="structured", pruning_ratio=0.15)
-config.add_method("quantization", bits=8, scheme="asymmetric")
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Multi-stage compression with validation
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g = CompressionConfig()
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("svd", rank_ratio=0.7, energy_threshold=0.95)
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("pruning", pruning_type="structured", pruning_ratio=0.15)
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("quantization", bits=8, scheme="asymmetric")
 
-# Advanced options
-config.preserve_first_layer = True
-config.preserve_last_layer = True
-config.validate_each_layer = True
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Advanced options
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.preserve_first_layer = True
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.preserve_last_layer = True
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.validate_each_layer = True
 
-compressor = TorchSlim(config)
-compressed_model = compressor.compress_model(model)
+compre[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sor = TorchSlim(config)
+compre[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sed_model = compressor.compress_model(model)
 ```
 
-### Analysis and Benchmarking
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Analysis and Benchmarking
 
-```python
-from torchslim.analysis import CompressionProfiler, VisualizationTools
-from torchslim.utils import benchmark_methods
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.analysis import CompressionProfiler, VisualizationTools
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.utils import benchmark_methods
 
-# Comprehensive profiling
-profiler = CompressionProfiler(device='cpu')
-methods_config = {
-    "svd": {"rank_ratio": 0.5},
-    "pruning": {"pruning_ratio": 0.2},
-    "quantization": {"bits": 8}
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Comprehensive profiling
+prof[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ler = CompressionProfiler(device='cpu')
+me[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hods_config = {
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   "svd": {"rank_ratio": 0.5},
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   "pruning": {"pruning_ratio": 0.2},
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   "quantization": {"bits": 8}
 }
 
-results = profiler.profile_multiple_methods(model, methods_config, test_data)
+re[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ults = profiler.profile_multiple_methods(model, methods_config, test_data)
 
-# Generate visualizations
-viz = VisualizationTools()
-viz.plot_compression_comparison(results, save_path='comparison.png')
-viz.create_dashboard(results, save_path='dashboard.html')
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Generate visualizations
+v[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]z = VisualizationTools()
+v[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]z.plot_compression_comparison(results, save_path='comparison.png')
+v[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]z.create_dashboard(results, save_path='dashboard.html')
 ```
 
-### Creating Custom Methods
+###[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Creating Custom Methods
 
-```python
-from torchslim.core.base import CompressionMethod, CompressionType
-from torchslim import register_method
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.core.base import CompressionMethod, CompressionType
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim import register_method
 
-class MyCustomCompression(CompressionMethod):
-    def __init__(self):
-        super().__init__(
-            name="my_method",
-            description="My custom compression technique",
-            compression_type=CompressionType.PARAMETRIC
-        )
-    
-    def compress_layer(self, layer, layer_name, **kwargs):
-        # Your compression logic here
-        return compressed_layer
-    
-    def can_compress_layer(self, layer):
-        return isinstance(layer, torch.nn.Linear)
-    
-    def get_compression_ratio(self, original, compressed):
-        return original_params / compressed_params
+c[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ass MyCustomCompression(CompressionMethod):
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   def __init__(self):
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       super().__init__(
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]           name="my_method",
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]           description="My custom compression technique",
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]           compression_type=CompressionType.PARAMETRIC
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       )
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   def compress_layer(self, layer, layer_name, **kwargs):
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       # Your compression logic here
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       return compressed_layer
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   def can_compress_layer(self, layer):
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       return isinstance(layer, torch.nn.Linear)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   def get_compression_ratio(self, original, compressed):
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]       return original_params / compressed_params
 
-# Register and use
-register_method("my_method", MyCustomCompression)
-config.add_method("my_method", custom_param=0.5)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Register and use
+reg[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ster_method("my_method", MyCustomCompression)
+conf[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]g.add_method("my_method", custom_param=0.5)
 ```
 
-## 📊 Validation and Quality Assessment
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📊 Validation and Quality Assessment
 
-```python
-from torchslim.utils.validation import validate_compression_pipeline, print_validation_report
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.utils.validation import validate_compression_pipeline, print_validation_report
 
-# Comprehensive validation
-results = validate_compression_pipeline(original_model, compressed_model, methods_used)
-print_validation_report(results)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Comprehensive validation
+re[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ults = validate_compression_pipeline(original_model, compressed_model, methods_used)
+pr[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]nt_validation_report(results)
 
-# Quick validation
-from torchslim.utils.validation import quick_validate
-is_valid = quick_validate(original_model, compressed_model)
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Quick validation
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.utils.validation import quick_validate
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]s_valid = quick_validate(original_model, compressed_model)
 ```
 
-## 🏗️ Architecture Overview
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🏗️ Architecture Overview
 
 ```
-TorchSlim Framework
-├── Core Components
-│   ├── CompressionMethod (Abstract Base Class)
-│   ├── TorchSlim (Main Compressor)
-│   ├── CompressionConfig (Configuration Management)
-│   └── Registry (Method Registration & Discovery)
-├── Compression Methods (Plugin System)
-│   ├── SVDCompression
-│   ├── QuantizationCompression
-│   ├── PruningCompression
-│   └── ... (Custom Methods)
-├── Analysis Tools
-│   ├── ModelAnalyzer
-│   ├── CompressionProfiler
-│   └── VisualizationTools
-└── Utilities
-    ├── Model Creation
-    ├── Benchmarking
-    └── Validation
+Torch[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]lim Framework
+├──[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Core Components
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── CompressionMethod (Abstract Base Class)
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── TorchSlim (Main Compressor)
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── CompressionConfig (Configuration Management)
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  └── Registry (Method Registration & Discovery)
+├──[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Compression Methods (Plugin System)
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── SVDCompression
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── QuantizationCompression
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── PruningCompression
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  └── ... (Custom Methods)
+├──[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Analysis Tools
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── ModelAnalyzer
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  ├── CompressionProfiler
+│[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]  └── VisualizationTools
+└──[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Utilities
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   ├── Model Creation
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   ├── Benchmarking
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]   └── Validation
 ```
 
-## 🔬 Research and Benchmarks
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🔬 Research and Benchmarks
 
-TorchSlim includes comprehensive benchmarking tools for research:
+Torch[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]lim includes comprehensive benchmarking tools for research:
 
-```python
-from torchslim.utils.benchmarks import run_standard_benchmark
+```py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]hon
+from[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]torchslim.utils.benchmarks import run_standard_benchmark
 
-# Run standard benchmark suite
-benchmarker = run_standard_benchmark(device="cuda")
-print(f"Completed {len(benchmarker.results)} compression experiments")
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Run standard benchmark suite
+benchm[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]rker = run_standard_benchmark(device="cuda")
+pr[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]nt(f"Completed {len(benchmarker.results)} compression experiments")
 ```
 
-## 📚 Documentation
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📚 Documentation
 
-- **[API Documentation](https://torchslim.readthedocs.io/)** - Complete API reference
-- **[User Guide](https://torchslim.readthedocs.io/en/latest/user_guide.html)** - Detailed usage examples
-- **[Developer Guide](https://torchslim.readthedocs.io/en/latest/developer_guide.html)** - How to contribute
-- **[Examples](./examples/)** - Jupyter notebooks and scripts
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**[API Documentation](https://torchslim.readthedocs.io/)** - Complete API reference
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**[User Guide](https://torchslim.readthedocs.io/en/latest/user_guide.html)** - Detailed usage examples
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**[Developer Guide](https://torchslim.readthedocs.io/en/latest/developer_guide.html)** - How to contribute
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**[Examples](./examples/)** - Jupyter notebooks and scripts
 
-## 🤝 Contributing
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-```bash
-# Development setup
-git clone https://github.com/zetaneh/torchslim.git
-cd torchslim
-pip install -e ".[dev]"
+```b[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]sh
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Development setup
+g[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]t clone https://github.com/zetaneh/torchslim.git
+c[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status] torchslim
+p[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]p install -e ".[dev]"
 
-# Run tests
-pytest tests/
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Run tests
+py[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]est tests/
 
-# Format code
-black torchslim tests examples
-flake8 torchslim tests examples
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Format code
+b[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ack torchslim tests examples
+f[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]ake8 torchslim tests examples
 
-# Build docs
-cd docs && make html
+#[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Build docs
+c[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status] docs && make html
 ```
 
-## 📄 License
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Th[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]s project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🙏 Acknowledgments
 
-- PyTorch team for the excellent deep learning framework
-- Research community for compression techniques and methodologies
-- Contributors and users of TorchSlim
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]PyTorch team for the excellent deep learning framework
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Research community for compression techniques and methodologies
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]Contributors and users of TorchSlim
 
-## 📞 Support
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/zetaneh/torchslim/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/zetaneh/torchslim/discussions)
-- **Email**: abraich.jons+torchslim@gmail.com
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Issues**: [GitHub Issues](https://github.com/zetaneh/torchslim/issues)
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Discussions**: [GitHub Discussions](https://github.com/zetaneh/torchslim/discussions)
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]**Email**: abraich.jons+torchslim@gmail.com
 
-## 🎯 Roadmap
+##[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]🎯 Roadmap
 
-- [ ] Additional compression methods (Distillation variants, NAS-based compression)
-- [ ] Hardware-specific optimizations (GPU, mobile, edge devices)
-- [ ] Integration with popular ML frameworks (Hugging Face, TorchVision models)
-- [ ] AutoML for compression method selection
-- [ ] Distributed compression support
-- [ ] Model deployment utilities
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] Additional compression methods (Distillation variants, NAS-based compression)
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] Hardware-specific optimizations (GPU, mobile, edge devices)
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] Integration with popular ML frameworks (Hugging Face, TorchVision models)
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] AutoML for compression method selection
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] Distributed compression support
+-[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status][ ] Model deployment utilities
 
 ---
 
-**Star ⭐ the project if you find it useful!**
+**[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]tar ⭐ the project if you find it useful!**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zetaneh/torchslim&type=Date)](https://star-history.com/#zetaneh/torchslim&Date)
+[![Documentation Status](https://readthedocs.org/projects/torchslim/badge/?version=latest)](https://torchslim.readthedocs.io/en/latest/?badge=latest)
+[![Build Status]![Star History Chart](https://api.star-history.com/svg?repos=zetaneh/torchslim&type=Date)](https://star-history.com/#zetaneh/torchslim&Date)
